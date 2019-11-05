@@ -26,11 +26,7 @@ html {
 }
 
 a {
-    color: #512200;
-}
-
-div {
-  text-align: center;
+  color: #512200;
 }
 
 body {
@@ -61,14 +57,14 @@ dl {
   padding: 0;
 }
 
-dt {
+div dt {
   display: inline-block;
-  width: 50px;
   text-align: left;
 }
 
-dd {
+div dd {
   display: inline-block;
+  text-align: left;
   font-style: italic;
   margin-left: 0;
   padding-left: 5em;
@@ -77,6 +73,9 @@ dd {
 nav {
   border-top: 2px solid #9a816d;
   border-bottom: 2px solid #9a816d;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .link-card .btn {
