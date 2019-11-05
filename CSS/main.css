@@ -44,6 +44,7 @@ body {
 h2 {
   text-align: left;
   padding-left: 1rem;
+  margin-top: .5em;
 }
 
 p {
@@ -57,12 +58,13 @@ dl {
   padding: 0;
 }
 
-div dt {
+dt {
   display: inline-block;
   text-align: left;
+  margin-left: .5em;
 }
 
-div dd {
+dd {
   display: inline-block;
   text-align: left;
   font-style: italic;
