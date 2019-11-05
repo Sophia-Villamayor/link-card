@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+  background-color: #dcd4cd;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.beetle {
+  display: block;
+}
+
+body {
+  color: #512200;
+  font-family: Georgia, serif;
+  margin: 1rem;
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5rem;
+}
