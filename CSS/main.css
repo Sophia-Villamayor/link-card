@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background-color: #dcd4cd;
+  background-color: #f0eee8;
   line-height: 1.5;
 }
 
@@ -8,8 +8,24 @@ html {
   box-sizing: inherit;
 }
 
-.beetle {
+.link-card {
   display: block;
+  border-radius: 3px;
+  background-color: #dcd4cd;
+  border: solid;
+  border-color: #785439;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.link-card:hover {
+  color: #512200;
+  background-color: #cabdb2;
+}
+
+div {
+  text-align: center;
 }
 
 body {
@@ -19,7 +35,41 @@ body {
   padding: 0;
 }
 
-h2 {
-  font-family: 'Dosis', sans-serif;
+.link-card h2 {
+  font-family: "Dosis", sans-serif;
   font-size: 1.5rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  padding: 1rem;
+  text-align: left;
+}
+
+dl {
+  font-size: .875rem;
+  list-style-type: none;
+  padding: 0;
+}
+
+.btn {
+  display: inline-block;
+  font-family: "Dosis", sans-serif;
+  color: #fff;
+  margin: 0 0 1rem;
+  font-size: 1.125rem;
+  background-color: #785439;
+  padding: .4em .75em .5em;
+  border-radius: 8px;
+  border: solid;
+  border-color: #785439;
+}
+
+.link-card .btn:hover {
+  color: #fff;
+  background-color: #512200;
+  border: solid #512200;
 }
