@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   background-color: #f0eee8;
   line-height: 1.5;
+  list-style-type: none;
 }
 
 *, *::before, *::after {
@@ -15,12 +16,17 @@ html {
   border: solid;
   border-color: #9a816d;
   text-align: center;
+  list-style-type: none;
   text-decoration: none;
 }
 
 .link-card:hover {
   color: #512200;
   background-color: #cabdb2;
+}
+
+a {
+    color: #512200;
 }
 
 div {
