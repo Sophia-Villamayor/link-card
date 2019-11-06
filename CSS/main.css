@@ -15,7 +15,7 @@ html {
   background-color: #dcd4cd;
   border: solid;
   border-color: #9a816d;
-  text-align: center;
+  text-align: left;
   list-style-type: none;
   text-decoration: none;
 }
@@ -55,23 +55,23 @@ p {
 dl {
   font-size: .875rem;
   list-style-type: none;
-  padding: 0;
+  padding: .6rem 0 1rem;
+  font-size: .875rem;
 }
 
 dt {
   display: inline-block;
   text-align: left;
   margin-left: .5em;
-  margin: 0;
+  width: 40%;
 }
 
 dd {
   display: inline-block;
-  text-align: left;
   font-style: italic;
-  margin-left: 0;
-  padding-left: 5em;
   margin: 0;
+  padding-left: 0;
+  width: 40%;
 }
 
 nav {
@@ -86,7 +86,7 @@ nav {
   display: inline-block;
   font-family: Dosis, sans-serif;
   color: #fff;
-  margin: 0 0 1rem;
+  margin: 0 0 1 10rem;
   font-size: 1.125rem;
   background-color: #785439;
   padding: .4em .75em .5em;
@@ -99,4 +99,11 @@ nav {
   color: #fff;
   background-color: #512200;
   border: solid #512200;
+}
+
+.btn {
+  text-align: center;
+  min-width: 40%;
+  max-width: 100px;
+  margin: 0 5em 1em;
 }
