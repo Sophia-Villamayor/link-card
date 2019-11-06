@@ -57,6 +57,7 @@ dl {
   list-style-type: none;
   padding: .6rem 0 1rem;
   font-size: .875rem;
+  margin-bottom: 0;
 }
 
 dt {
@@ -86,7 +87,6 @@ nav {
   display: inline-block;
   font-family: Dosis, sans-serif;
   color: #fff;
-  margin-top: 0 0 1rem 10rem;
   font-size: 1.125rem;
   background-color: #785439;
   padding: .4em .75em .5em;
